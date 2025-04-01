@@ -1,9 +1,9 @@
-data "aws_availability_zones" "selected" {
-  filter {
-    name = "zone-id"
-    values = ["us-east-1a", "us-east-1b"]
-  }
-}
+# data "aws_availability_zones" "selected" {
+#   filter {
+#     name = "zone-id"
+#     values = ["us-east-1a", "us-east-1b"]
+#   }
+# }
 
 data "aws_availability_zones" "available" {
   state = "available"

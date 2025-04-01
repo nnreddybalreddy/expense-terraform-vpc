@@ -1,6 +1,6 @@
-output "selected_availability_zones" {
-  value = data.aws_availability_zones.selected.zone_ids
-}
+# output "selected_availability_zones" {
+#   value = data.aws_availability_zones.selected.zone_ids
+# }
 
 output "azs" {
     value = data.aws_availability_zones.available.names
